@@ -1,0 +1,19 @@
+09-12 = 	funciona bien
+		solo resuelve para empotramiento y articulacion
+		las cargas en barras hay que ponerlas a mano
+
+10-12 = 	funciona bien
+		resuelve para cualquier tipo de apoyo (supuestamente, falta testear)
+		todavia hay que poner las cargas en barras a mano
+
+11-12 =		funciona bien
+		resuelve cualquier cosa
+		hay que poner cargas en barras a mano
+		te da en una nueva hoja las cargas por barra en locales (para sacar diagramas), pero suma mal (cuando hay dos nudos conectados)
+
+18-01 =		version mas estable --> solo falla en una cosa y se conoce su motivo -- unicamente le faltaria que hiciera dibujos de diagramas (excel se queda corto ya)
+		funciona bien
+		resuelve lo que sea
+		las barras cargadas hay que ponerlas a mano --> esta implementada una parte de la programacion pero el excel se queda pequeño ya y habria que modificar muchas cosas anteriores para que hiciera eso correctamente de manera automatica
+		el fallo en la version anterior al dar los esfuerzos en barra en locales --> debido a que cuando coge las cargas en un nudo coge las de todas las barras aplicadas a ese nudo, no solo la de la barra que esta calculando, por ello en extremos de barra sale bien y en extremos conectados con otras barras no
+		la solucion residiria en acabar de implementar la rutina para calcular las cargas de emp perfecto automaticamente, pero como se ha dicho antes, habria que modificar el programa desde el principio creando nuevas variables para ello
